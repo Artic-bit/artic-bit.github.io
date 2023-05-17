@@ -1,0 +1,151 @@
+		
+		
+		/* Background default + Rende tutto attaccato al bordo di base */
+		
+		body {
+			background-color: #f2f2f2;
+			margin: 0;
+			padding: 0;
+
+			font-family: 'Roboto', sans-serif;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 1.5;
+			color: #333;
+		}
+
+		/* Utilizzato per creare uno sfondo bianco staccato dal bordo principale dietro ogni <article> */
+
+		article {
+			border: 1px solid #ccc;
+			margin: 10px;
+			padding: 10px;
+			background-color: #fff;
+		}
+
+		footer {
+			text-align: center;
+			border: 1px solid #ccc;
+			background-color: #fff;
+		}
+
+		h1, h2 {
+			color: #333;
+			text-align: center;
+		}
+
+		/* Rimuove il padding e il margin di default per il <nav> */
+		nav {
+			margin: 0;
+			padding: 0;
+		}
+		
+		/* classe specifica per il menu di navigazione */
+		.nav-menu {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+		
+		/* Navigazione verso sinistra */
+		.nav-menu li {
+			display: inline-block;
+			margin: 0;
+			padding: 0;
+		}
+  
+		.nav-menu li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		
+		.nav-menu li a:hover {
+			background-color: #111;
+		}
+
+		.nav-menu-right {
+			float: right; /* Per spostare il parametro "lavora con noi" del <nav> a destra */
+		}
+
+		.verde a {
+			color: lightgreen
+		  }
+		  
+		.verde a:hover {
+			text-decoration: underline; 
+		  }
+
+		table {
+			border-collapse: collapse; /* Unisce i bordi*/
+			margin: 10px;
+			width: 99%; /* Lascia un piccolo spazio fra la tabella e il bordo dell' <article> */
+		}
+
+		table td, table th {
+			border: 1px solid #ccc;
+			padding: 8px;
+			text-align: left;
+		}
+
+		table th {
+			background-color: #f2f2f2;
+		}
+
+
+		p {
+			margin: 10px;
+			text-align: justify;
+			margin-bottom: 16px;
+		}
+
+
+		.container {
+			display: flex; /* Utilizza il display flex per allineare immagine e testo */
+			align-items: center; 
+			justify-content: flex-start;
+		}
+	  
+		.container img {
+			margin-right: 10px; 
+			margin-left: 10px;
+			padding: 10px;
+			width: 105px;
+		}
+
+		a {
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.containerHome {
+			display: flex; /* Utilizza il display flex per allineare immagine e testo */
+			align-items: center; 
+			justify-content: flex-start;
+		}
+
+		.homelogo {
+			padding: 70px;
+			margin-left: 80px;
+			margin-top: 20px;
+		}
+
+	/* HOMEPAGE */
+
+	.homepage-container {
+		display: flex; /* Utilizza il display flex per allineare immagine e testo */
+		align-items: center;
+	  }
+	  
+	.image-links img {
+		margin-top: 50px;
+		width: 50px;
+		margin-right: 10px;
+		margin-left: 100px;
+	}
+
+		
