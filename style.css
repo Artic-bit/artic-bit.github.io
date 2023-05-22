@@ -148,4 +148,47 @@
 		margin-left: 100px;
 	}
 
+	.marika {
+		width: 30%;
+	}
+	
+	.primoprodotto {
+		width: 300px;
+		border: 1px solid #ccc;
+		padding: 20px;
+		margin-left: 100px;
+		margin-top: 75px;
+		margin-right: 10px;
+		text-align: center;
+		display: inline-block;
+	  }
+
+	.prodotto {
+		width: 300px;
+		border: 1px solid #ccc;
+		padding: 20px;
+		margin: 10px;
+		text-align: center;
+		display: inline-block;
+	  }
+  
+	.prodotto img {
+		width: 200px;
+		height: 200px;
+		margin-bottom: 10px;
+	  }
+  
+	  .prodotto h3 {
+		margin-top: 0;
+	  }
+  
+	.primoprodotto img {
+		width: 200px;
+		height: 200px;
+		margin-bottom: 10px;
+	  }
+  
+	  .primoprodotto h3 {
+		margin-top: 0;
+	  }
 		
